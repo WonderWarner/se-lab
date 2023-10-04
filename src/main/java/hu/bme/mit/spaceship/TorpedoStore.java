@@ -11,7 +11,7 @@ public class TorpedoStore {
 
   // rate of failing to fire torpedos [0.0, 1.0]
   private double FAILURE_RATE = 0.0; //NOSONAR
-
+  //KOMMENT a kövi egy random változó, és nem fv-ben, hogy csak egyszer hozzuk létre (bár az osztály példányosítása során úgyis több keletkezik lol)
   Random generator = new Random();
 
   private int torpedoCount = 0;
